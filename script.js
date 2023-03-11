@@ -38,10 +38,10 @@ function conferirPalpite() {
         }
         
         if(palpiteUsuario < numeroAleatorio) {
-            baixoOuAlto.textContent = 'Seu palpite está muito baixo!';
+            baixoOuAlto.textContent = 'Seu palpite está baixo!';
         }
         else if(palpiteUsuario > numeroAleatorio) {
-            baixoOuAlto.textContent = 'Seu palpite está muito alto!';
+            baixoOuAlto.textContent = 'Seu palpite está alto!';
         }
 
     }else {
